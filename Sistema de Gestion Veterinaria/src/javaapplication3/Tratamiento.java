@@ -99,7 +99,9 @@ public class Tratamiento {
     }
 
     public void evaluacionHospi() {
-    
+        
+        double costoTotal = calcularCostoTotal();
+
         if (costoTotal > 100000) {
             System.out.println("La mascota necesita hospitalización");
         } else {
